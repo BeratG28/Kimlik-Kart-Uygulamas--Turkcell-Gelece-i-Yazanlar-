@@ -1,11 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/c-ile-algoritma-ve-programlama-101/kimlik-karti-uygulamasi
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>Turkcell_Pratik</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+using System;
 
-</Project>
+namespace MyApp // Note: actual namespace depends on the project name.
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("***** Kimlik Uygulamasi *****");
+            Console.WriteLine();
+            Console.WriteLine("Berat");
+            Console.WriteLine("Gunaydin");
+            Console.WriteLine("Marmara universitesi");
+            Console.WriteLine("Istanbul");
+            Console.WriteLine();
+            Console.WriteLine("*****Kimlik Uygulamasi*****");
+
+
+
+            Console.Read();
+
+        }
+    }
+}
